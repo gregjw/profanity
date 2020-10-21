@@ -16,6 +16,10 @@ class Filter {
   isProfane(string) {
     return (
       this.list.filter(word => {
+        if (string.includes(word)){
+          return true; 
+        }
+        
         const wordExp = new RegExp(
           `\\b${word.replace(/(\W)/g, '\\$1')}\\b`,
           'gi',
