@@ -1,0 +1,25 @@
+{
+  "name": "profanity",
+  "version": "1.0.1",
+  "description": "Profanity filtering",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregjw/profanity.git"
+  },
+  "keywords": [
+    "filter"
+  ],
+  "author": "gregjw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregjw/profanity/issues"
+  },
+  "homepage": "https://github.com/gregjw/profanity#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
